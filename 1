@@ -28,9 +28,7 @@
                                 end
                             
                                 -- // Check if downed
-                                local Character = Aiming.Character(Aiming.Selected)
-                                local KOd = Character:WaitForChild("BodyEffects")["K.O"].Value
-                                local Grabbed = Character:FindFirstChild("GRABBING_CONSTRAINT") ~= nil
+                               
                             
                                 -- // Check B
                                 if (KOd or Grabbed) then
